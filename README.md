@@ -1,7 +1,11 @@
 # LogMe
 _A very basic application to log my thoughts during work and save them in JSON format._
 
+### Screenshot of application
 ![LogMe App Screenshot](/image.png)
+
+### Screenshot of the Log file it saves
+![LogMe App Screenshot](/image2.png)
 
 ## How to Run the Application
 
