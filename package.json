@@ -1,0 +1,28 @@
+{
+  "name": "nikhil_logging_app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Nikhil Jha",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.electronsaveapp",
+    "productName": "NJ's LogMe App",
+    "files": [
+      "main.js",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+ "dependencies": {},
+  "devDependencies": {
+    "electron": "^21.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
