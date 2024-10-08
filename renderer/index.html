@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ's Logging App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Log your thoughts</h1>
+    <div>
+        <label for="format">Select Format:</label>
+        <select id="format">
+            <option value="json">JSON</option>
+            <option value="xml">XML</option>
+        </select>
+    
+        <button id="select-directory">Select Directory</button>
+        <span id="directory-path"></span>
+    </div>
+    <div>
+        <input type="text" id="item-input" placeholder="Enter item" />
+        <button id="add-item">Add Item</button>
+    </div>
+    <ul id="items-list"></ul>
+    <button id="save-items">Save Items</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
