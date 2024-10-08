@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.electronsaveapp
+productName: NJ's LogMe App
+files:
+  - filter:
+      - main.js
+      - renderer/**/*
+      - package.json
+mac:
+  category: public.app-category.utilities
+electronVersion: 21.4.4
